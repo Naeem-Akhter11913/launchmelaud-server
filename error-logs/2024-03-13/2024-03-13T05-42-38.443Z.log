@@ -1,0 +1,31 @@
+Date: Wed, 13 Mar 2024 05:42:38 GMT : 
+  Route: /api/v1/user/user-registration 
+ Error: ValidationError: country: Cast to string failed for value "{
+  ip: '45.64.236.212',
+  network: '45.64.236.0/23',
+  version: 'IPv4',
+  city: 'Kolkata',
+  region: 'West Bengal',
+  region_code: 'WB',
+  country: 'IN',
+  country_name: 'India',
+  country_code: 'IN',
+  country_code_iso3: 'IND',
+  country_capital: 'New Delhi',
+  country_tld: '.in',
+  continent_code: 'AS',
+  in_eu: false,
+  postal: '700015',
+  latitude: 22.518,
+  longitude: 88.3832,
+  timezone: 'Asia/Kolkata',
+  utc_offset: '+0530',
+  country_calling_code: '+91',
+  currency: 'INR',
+  currency_name: 'Rupee',
+  languages: 'en-IN,hi,bn,te,mr,ta,ur,gu,kn,ml,or,pa,as,bh,sat,ks,ne,sd,kok,doi,mni,sit,sa,fr,lus,inc',
+  country_area: 3287590,
+  country_population: 1352617328,
+  asn: 'AS23860',
+  org: 'Alliance Broadband Services Pvt. Ltd.'
+}" (type Object) at path "country"

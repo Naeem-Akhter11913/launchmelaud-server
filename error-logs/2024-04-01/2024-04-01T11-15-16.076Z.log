@@ -1,0 +1,3 @@
+Date: Mon, 01 Apr 2024 11:15:16 GMT : 
+  Route: /api/v1/company-route/addNews 
+ Error: TypeError: Cannot read properties of undefined (reading 'path')

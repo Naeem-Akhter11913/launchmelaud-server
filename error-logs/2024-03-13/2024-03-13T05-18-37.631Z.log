@@ -1,0 +1,3 @@
+Date: Wed, 13 Mar 2024 05:18:37 GMT : 
+  Route: /api/v1/company-route/get-News 
+ Error: CastError: Cast to ObjectId failed for value "null" (type string) at path "author" for model "News"

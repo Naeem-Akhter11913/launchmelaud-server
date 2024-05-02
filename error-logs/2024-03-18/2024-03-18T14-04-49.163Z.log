@@ -1,0 +1,3 @@
+Date: Mon, 18 Mar 2024 14:04:49 GMT : 
+  Route: /api/v1/project/email-edit 
+ Error: CastError: Cast to Number failed for value "gdfsgsdfg" (type string) at path "email_settings.send_email_port"

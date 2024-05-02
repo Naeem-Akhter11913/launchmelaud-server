@@ -1,0 +1,3 @@
+Date: Tue, 19 Mar 2024 10:59:31 GMT : 
+  Route: /api/v1/user/active/account 
+ Error: TypeError: Cannot read properties of null (reading '_id')

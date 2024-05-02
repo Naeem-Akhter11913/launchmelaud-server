@@ -1,0 +1,3 @@
+Date: Wed, 03 Apr 2024 10:18:50 GMT : 
+  Route: /api/v1/company-route/addCompany 
+ Error: ValidationError: address.zip: Path `address.zip` is required., address.city: Path `address.city` is required., address.state: Path `address.state` is required., address.country: Path `address.country` is required., address.street: Path `address.street` is required., companyName: Path `companyName` is required., tagLine: Path `tagLine` is required., comapnyDetails: Path `comapnyDetails` is required., founded: Path `founded` is required., teamSize: Path `teamSize` is required., website: Path `website` is required., tags: Path `tags` is required.

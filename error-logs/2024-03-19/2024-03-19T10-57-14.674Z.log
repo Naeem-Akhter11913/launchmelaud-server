@@ -1,0 +1,3 @@
+Date: Tue, 19 Mar 2024 10:57:14 GMT : 
+  Route: /api/v1/user/active/account 
+ Error: JsonWebTokenError: jwt malformed

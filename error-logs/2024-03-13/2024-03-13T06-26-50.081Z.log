@@ -1,0 +1,3 @@
+Date: Wed, 13 Mar 2024 06:26:50 GMT : 
+  Route: /api/v1/company-route/update-news 
+ Error: ReferenceError: cloudinary is not defined

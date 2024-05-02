@@ -1,0 +1,3 @@
+Date: Tue, 19 Mar 2024 11:36:30 GMT : 
+  Route: /api/v1/user/user-registration 
+ Error: MongoServerError: E11000 duplicate key error collection: intolapProject.users index: email_1 dup key: { email: "drdebolina0@gmail.com" }

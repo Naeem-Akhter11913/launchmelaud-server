@@ -1,0 +1,3 @@
+Date: Tue, 19 Mar 2024 10:58:22 GMT : 
+  Route: /api/v1/user/active/account 
+ Error: ReferenceError: base64EncodedToken is not defined

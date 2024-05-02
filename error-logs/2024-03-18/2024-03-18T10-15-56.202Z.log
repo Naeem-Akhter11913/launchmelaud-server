@@ -1,0 +1,3 @@
+Date: Mon, 18 Mar 2024 10:15:56 GMT : 
+  Route: /api/v1/user/user-registration 
+ Error: TypeError: Cannot read properties of null (reading 'email')
