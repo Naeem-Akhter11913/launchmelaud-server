@@ -8,7 +8,7 @@ const app = express();
 const Port = 8080;
 
 /* DB */
-require("./DB_Connection/connection");
+require("./src/DB_Connection/connection");
 
 app.use(bodyParser.json())
 app.use(cookieParser("abcd-1234"));
@@ -50,13 +50,14 @@ app.use(session({
 }));
 
 /* importing all routes here */
-const user_route = require("./Routes/user_route");
-const project_route = require("./Routes/project_route");
-const lead_route = require("./Routes/lead_route");
-const company_route = require("./Routes/company_route");
-const client_route = require("./Routes/client_route");
-const filled_percentage = require("./Routes/user_filled_percentage");
-const { errorLog } = require("./middleware/errorLog");
+// const user_route = require("./Routes/user_route");
+const user_route = require("./src/Routes/user_route");
+const project_route = require("./src/Routes/project_route");
+const lead_route = require("./src/Routes/lead_route");
+const company_route = require("./src/Routes/company_route");
+const client_route = require("./src/Routes/client_route");
+const filled_percentage = require("./src/Routes/user_filled_percentage");
+const { errorLog } = require("./src/middleware/errorLog");
 
 
 app.use("/api/v1/user", user_route);
